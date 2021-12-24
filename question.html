@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inspiration&family=Twinkle+Star&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inspiration&family=Twinkle+Star&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/stylequestion.css">
+    <link rel="stylesheet" href="./CSS/Snow.css">
+    <title>PNV Christmas 2021</title>
+</head>
+<body>
+    <div class="container">
+        <div class="snowflakes" aria-hidden="true">
+            <div class="snowflake">❅</div>
+            <div class="snowflake">❆</div>
+            <div class="snowflake">❅</div>
+            <div class="snowflake">❆</div>
+            <div class="snowflake">❅</div>
+            <div class="snowflake">❆</div>
+            <div class="snowflake">❅</div>
+            <div class="snowflake">❆</div>
+            <div class="snowflake">❅</div>
+            <div class="snowflake">❆</div>
+            <div class="snowflake">❅</div>
+            <div class="snowflake">❆</div>
+        </div>
+        <div class="animation">
+            <img id="noel1" src="./img/Iris-Tips-santa-claus-3d.gif" alt="">
+        </div>
+        <div class="question" id="question-1">
+            <h1>1. Trên đỉnh cây Noel, người ta thường hay treo thứ gì nhiều nhất nhỉ?</h1>
+            <div class="answers">
+                <div class="row">
+                    <div class="col-6">
+                        <button onclick="answers(1,1)" type="button" class="btn btn-primary"><h4>A. Quả bóng</h4></button>
+                        <br>
+                        <br>
+                        <button onclick="answers(2,1)" type="button" class="btn btn-success"><h4>B. Cái chuông</h4></button>
+                    </div>
+                    <div class="col-6">
+                        <button onclick="answers(3,1)" type="button" class="btn btn-danger"><h4>C. Ngôi sao</h4></button>
+                        <br>
+                        <br>
+                        <button onclick="answers(4,1)" type="button" class="btn btn-warning"><h4>D. Con chim</h4></button>
+                    </div>
+                </div>
+                <div id="true-1">
+                    <h1 class="text-center">Đúng</h1>
+                </div>
+                <div id="false-1">
+                    <h1 class="text-center">Đáp án đúng là C</h1>
+                </div>
+            </div>
+        </div>
+        <div class="question" id="question-2">
+            <h1>2.  Những đứa trẻ ngoan sẽ treo tất của mình ở đâu để nhận quà của ông già Noel?</h1>
+            <div class="answers">
+                <div class="row">
+                    <div class="col-6">
+                        <button onclick="answers(5,2)" type="button" class="btn btn-primary"> <h4>A. Ống khói</h4></button>
+                        <br><br>
+                        <button onclick="answers(6,2)" type="button" class="btn btn-success"><h4>B. Chân giường</h4></button>
+                    </div>
+                    <div class="col-6">
+                        <button onclick="answers(7,2)" type="button" class="btn btn-danger"><h4>C. Đầu giường</h4></button>
+                        <br><br>
+                        <button onclick="answers(8,2)" type="button" class="btn btn-warning"><h4>D. Ngoài cổng</h4></button>
+                    </div>
+                </div>
+                <div id="true-2">
+                    <h1 class="text-center">Đúng</h1>
+                </div>
+                <div id="false-2">
+                    <h1 class="text-center">Đáp án đúng là C</h1>
+                </div>
+            </div>
+        </div>
+        <div class="question" id="question-3">
+            <h1>3.  Ông già Noel tên thật là gì?</h1>
+            <div class="answers">
+                <div class="row">
+                    <div class="col-6">
+                        <button onclick="answers(9,3)" type="button" class="btn btn-primary"> <h4>A. Nicolas</h4></button>
+                        <br><br>
+                        <button onclick="answers(10,3)" type="button" class="btn btn-success"><h4>B. Santa Claus</h4></button>
+                    </div>
+                    <div class="col-6">
+                        <button onclick="answers(11,3)" type="button" class="btn btn-danger"><h4>C. Kaka</h4></button>
+                        <br><br>
+                        <button onclick="answers(12,3)" type="button" class="btn btn-warning"><h4>D. Cristiano Ronaldo</h4></button>
+                    </div>
+                </div>
+                <div id="true-3">
+                    <h1 class="text-center">Đúng</h1>
+                </div>
+                <div id="false-3">
+                    <h1 class="text-center">Đáp án đúng là B</h1>
+                </div>
+            </div>
+        </div>
+        <div class="question" id="question-4">
+            <h1>4. Đến ngày Noel, nhiều đứa trẻ rủ nhau ra ngoài trời đầy tuyết rơi, đắp những mô hình người tuyết ngộ nghĩnh. Đố các bạn biết chiếc mũi người tuyết thường đc làm từ cái gì?</h1>
+            <div class="answers">
+                <div class="row">
+                    <div class="col-6">
+                        <button onclick="answers(13,4)" type="button" class="btn btn-primary"> <h4>A. Củ cà rốt</h4></button>
+                        <br><br>
+                        <button onclick="answers(14,4)" type="button" class="btn btn-success"><h4>B. Quả dưa leo</h4></button>
+                    </div>
+                    <div class="col-6">
+                        <button onclick="answers(15,4)" type="button" class="btn btn-danger"><h4>C. Quả xoài</h4></button>
+                        <br><br>
+                        <button onclick="answers(16,4)" type="button" class="btn btn-warning"><h4>D. Củ khoai lang</h4></button>
+                    </div>
+                </div>
+                <div id="true-4">
+                    <h1 class="text-center">Đúng</h1>
+                </div>
+                <div id="false-4">
+                    <h1 class="text-center">Đáp án đúng là D</h1>
+                </div>
+            </div>
+        </div>
+        <div class="question" id="question-5">
+            <h1>5. Vào dịp giáng sinh ông nhận được rất nhiều thư từ trẻ em khắp thế giới và mỗi đêm Giáng Sinh, ông lại bắt đầu cuộc hành trình của mình với cỗ xe kéo bởi bao nhiêu con tuần lộc?</h1>
+            <div class="answers">
+                <div class="row">
+                    <div class="col-6">
+                        <button onclick="answers(17,5)" type="button" class="btn btn-primary"> <h4>A. 8</h4></button>
+                        <br><br>
+                        <button onclick="answers(18,5)" type="button" class="btn btn-success"><h4>B. 9</h4></button>
+                    </div>
+                    <div class="col-6">
+                        <button onclick="answers(19,5)" type="button" class="btn btn-danger"><h4>C. 10</h4></button>
+                        <br><br>
+                        <button onclick="answers(20,5)" type="button" class="btn btn-warning"><h4>D. 11</h4></button>
+                    </div>
+                </div>
+                <div id="true-5">
+                    <h1 class="text-center">Đúng</h1>
+                </div>
+                <div id="false-5">
+                    <h1 class="text-center">Đáp án đúng là B</h1>
+                </div>
+            </div>
+        </div>
+        <div class="question" id="question-6">
+            <h1>6. Ông già Noel thường vào nhà để tặng quà cho trẻ em bằng cách nào?</h1>
+            <div class="answers">
+                <div class="row">
+                    <div class="col-6">
+                        <button onclick="answers(21,6)" type="button" class="btn btn-primary"> <h4>A. Bấm chuông</h4></button>
+                        <br><br>
+                        <button onclick="answers(22,6)" type="button" class="btn btn-success"><h4>B. Qua cửa sổ</h4></button>
+                    </div>
+                    <div class="col-6">
+                        <button onclick="answers(23,6)" type="button" class="btn btn-danger"><h4>C. Qua ống khói</h4></button>
+                        <br><br>
+                        <button onclick="answers(24,6)" type="button" class="btn btn-warning"><h4>D. Bưu điện</h4></button>
+                    </div>
+                </div>
+                <div id="true-6">
+                    <h1 class="text-center">Đúng</h1>
+                </div>
+                <div id="false-6">
+                    <h1 class="text-center">Đáp án đúng là C</h1>
+                </div>
+            </div>
+        </div>
+        <div class="question" id="question-7">
+            <h1>7. Tên của Bản nhạc nền bạn đang nghe là gì?</h1>
+            <div class="answers">
+                <div class="row">
+                    <div class="col-6">
+                        <button onclick="answers(25,7)" type="button" class="btn btn-primary"> <h4>A. Feliz Navidad</h4></button>
+                        <br><br>
+                        <button onclick="answers(26,7)" type="button" class="btn btn-success"><h4>B. Jingle Bells</h4></button>
+                    </div>
+                    <div class="col-6">
+                        <button onclick="answers(27,7)" type="button" class="btn btn-danger"><h4>C.  Silent Night</h4></button>
+                        <br><br>
+                        <button onclick="answers(28,7)" type="button" class="btn btn-warning"><h4>D. Last Christmas</h4></button>
+                    </div>
+                </div>
+                <div id="true-7">
+                    <h1 class="text-center">Đúng</h1>
+                </div>
+                <div id="false-7">
+                    <h1 class="text-center">Đáp án đúng là A</h1>
+                </div>
+            </div>
+        </div>
+        <div class="question" id="question-8">
+            <h1>8. Món quà ông già Noel thường để ở đâu?</h1>
+            <div class="answers">
+                <div class="row">
+                    <div class="col-6">
+                        <button onclick="answers(29,8)" type="button" class="btn btn-primary"> <h4>A. Trong xe tuần lộc</h4></button>
+                        <br><br>
+                        <button onclick="answers(30,8)" type="button" class="btn btn-success"><h4>B. Trong áo</h4></button>
+                    </div>
+                    <div class="col-6">
+                        <button onclick="answers(31,8)" type="button" class="btn btn-danger"><h4>C.  Trong cái nón hình cũ carot</h4></button>
+                        <br><br>
+                        <button onclick="answers(32,8)" type="button" class="btn btn-warning"><h4>D. Trong chiếc tất</h4></button>
+                    </div>
+                </div>
+                <div id="true-8">
+                    <h1 class="text-center">Đúng</h1>
+                </div>
+                <div id="false-8">
+                    <h1 class="text-center">Đáp án đúng là D</h1>
+                </div>
+            </div>
+        </div>
+        <div class="question" id="question-9">
+            <h1>9. Ông già Noel thường mặc quần áo màu gì?</h1>
+            <div class="answers">
+                <div class="row">
+                    <div class="col-6">
+                        <button onclick="answers(33,9)" type="button" class="btn btn-primary"> <h4>A. Màu vàng, viền trắng</h4></button>
+                        <br><br>
+                        <button onclick="answers(34,9)" type="button" class="btn btn-success"><h4>B. Màu trắng, viền đỏ</h4></button>
+                    </div>
+                    <div class="col-6">
+                        <button onclick="answers(35,9)" type="button" class="btn btn-danger"><h4>C.  Màu đỏ, viền trắng</h4></button>
+                        <br><br>
+                        <button onclick="answers(36,9)" type="button" class="btn btn-warning"><h4>D. Màu trắng, viền vàng</h4></button>
+                    </div>
+                </div>
+                <div id="true-9">
+                    <h1 class="text-center">Đúng</h1>
+                </div>
+                <div id="false-9">
+                    <h1 class="text-center">Đáp án đúng là C</h1>
+                </div>
+            </div>
+        </div>
+        <div class="question" id="question-10">
+            <h1>10. Bạn có thấy ngày lễ giáng sinh có vui không</h1>
+            <div class="answers">
+                <div class="row">
+                    <div class="col-6">
+                        <button onclick="answers(37,10)" type="button" class="btn btn-primary"> <h4>A. Vui</h4></button>
+                        <br><br>
+                        <button onclick="answers(38,10)" type="button" class="btn btn-success"><h4>B. Rất vui</h4></button>
+                    </div>
+                    <div class="col-6">
+                        <button onclick="answers(39,10)" type="button" class="btn btn-danger"><h4>C.  Bình thường</h4></button>
+                        <br><br>
+                        <button onclick="answers(40,10)" type="button" class="btn btn-warning"><h4>D. Khá buồn</h4></button>
+                    </div>
+                </div>
+                <div id="true-10">
+                    <h1 class="text-center">Đúng</h1>
+                </div>
+            </div>
+        </div>
+        <div id="point">
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.24.0/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+    <script src="./JS/answers.js"></script>
+    <script src="./JS/gifts.js"></script>
+    <script src="./JS/music.js"></script>
+</body>
+</html>

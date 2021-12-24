@@ -1,0 +1,91 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#noel1{
+    transform: translateX(-270%);
+    animation-name: fly-to1;
+    animation-duration: 20s;
+    animation-play-state:running;
+    animation-iteration-count:infinite;
+}
+
+@-webkit-keyframes fly-to1{
+    from{
+        transform: translateX(-240%);
+    }
+    to{
+        transform: translateX(400%);
+    }
+
+}
+
+.container{
+    font-family: 'Twinkle Star', cursive;
+    font-weight: 900;
+    color: bisque;
+    background-image: linear-gradient(45deg, rgba(2, 33, 64, 0.5) 55%, rgba(45, 95, 93, 0.85)),url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+.question{
+    padding: 6%;
+}
+.answers{
+    padding: 6%;
+}
+
+.btn{
+    padding: 3%;
+    margin-left: 3%;
+    width: 100%;
+}
+
+#question-2,#question-3,#question-4,#question-5,#question-6,#question-7,#question-8,#question-9,#question-10{
+    display: none;
+}
+
+.text-center{
+    margin-top: 5%;
+}
+
+#true-1,#false-1,#true-2,#false-2,#true-3,#false-3,#true-4,#false-4,#true-5,#false-5,#true-6,#false-6,#true-7,#false-7,#true-8,#false-8,#true-9,#false-9,#true-10{
+    display: none;
+}
+
+#point{
+    text-align: center;
+}
+
+.size{
+    width: 20%;
+    margin: 40%;
+    margin-top: 5%;
+}
+
+.hat{
+    position: relative;
+}
+
+#hat{
+    width: 18%;
+    position: absolute;
+    transform: translate(0%,-40%);
+}
+
+#wreath,#santa{
+    width: 20%;
+}
+
+#gift{
+    width: 50%;
+}
